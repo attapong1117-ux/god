@@ -1,41 +1,33 @@
-::[Bat To Exe Converter]
-::
-::YAwzoRdxOk+EWAjk
-::fBw5plQjdCyDJGyX8VAjFBpAWAWSAFuzBaEJ+u3o0+OKo0oYR6w2e4C7
-::YAwzuBVtJxjWCl3EqQJgSA==
-::ZR4luwNxJguZRRnk
-::Yhs/ulQjdF+5
-::cxAkpRVqdFKZSzk=
-::cBs/ulQjdF+5
-::ZR41oxFsdFKZSDk=
-::eBoioBt6dFKZSDk=
-::cRo6pxp7LAbNWATEpCI=
-::egkzugNsPRvcWATEpCI=
-::dAsiuh18IRvcCxnZtBJQ
-::cRYluBh/LU+EWAnk
-::YxY4rhs+aU+JeA==
-::cxY6rQJ7JhzQF1fEqQJQ
-::ZQ05rAF9IBncCkqN+0xwdVs0
-::ZQ05rAF9IAHYFVzEqQJQ
-::eg0/rx1wNQPfEVWB+kM9LVsJDGQ=
-::fBEirQZwNQPfEVWB+kM9LVsJDGQ=
-::cRolqwZ3JBvQF1fEqQJQ
-::dhA7uBVwLU+EWDk=
-::YQ03rBFzNR3SWATElA==
-::dhAmsQZ3MwfNWATElA==
-::ZQ0/vhVqMQ3MEVWAtB9wSA==
-::Zg8zqx1/OA3MEVWAtB9wSA==
-::dhA7pRFwIByZRRnk
-::Zh4grVQjdCyDJGyX8VAjFBpAWAWSAE+1EbsQ5+n//NakkGQpfcEeVMHewrHu
-::YB416Ek+ZG8=
-::
-::
-::978f952a14a936cc963da21a135fa983
 @echo off
 chcp 65001 >nul
 title CRITICAL  BUILD AT 6/5/2569 21:19
 color 0D
 mode con: cols=62 lines=17
+
+:login
+cls
+echo.
+echo   ▄████▄   ██▀███   ██▓▄▄▄█████▓ ██▓ ▄████▄   ▄▄▄       ██▓
+echo  ▒██▀ ▀█  ▓██ ▒ ██▒▓██▒▓  ██▒ ▓▒▓██▒▒██▀ ▀█  ▒████▄    ▓██▒
+echo  ▒▓█    ▄ ▓██ ░▄█ ▒▒██▒▒ ▓██░ ▒░▒██▒▒▓█    ▄ ▒██  ▀█▄  ▒██▒
+echo  ▒▓▓▄ ▄██▒▒██▀▀█▄  ░██░░ ▓██▓ ░ ░██░▒▓▓▄ ▄██▒░██▄▄▄▄██ ░██░
+echo  ▒ ▓███▀ ░░██▓ ▒██▒░██░  ▒██▒ ░ ░██░▒ ▓███▀ ░ ▓█   ▓██▒░██░
+echo  ░ ░▒ ▒  ░░ ▒▓ ░▒▓░░▓    ▒ ░░   ░▓  ░ ░▒ ▒  ░ ▒▒   ▓▒█░░▓
+echo    ░  ▒     ░▒ ░ ▒░ ▒ ░    ░     ▒ ░  ░  ▒     ▒   ▒▒ ░ ▒ ░
+echo  ░          ░░   ░  ▒ ░  ░       ▒ ░░          ░   ▒    ▒ ░
+echo  ░ ░         ░      ░            ░  ░ ░            ░  ░ ░
+echo  ░                                ░
+echo                        LOG IN   TO  CRITICAL
+echo.
+
+set /p key=LICENSE KEY ^>
+
+if "%key%"=="dev" goto menu
+
+echo.
+echo INVALID KEY!
+timeout /t 2 >nul
+goto login
 
 :menu
 cls
@@ -52,9 +44,9 @@ echo  ░          ░░   ░  ▒ ░  ░       ▒ ░░          ░   �
 echo  ░ ░         ░      ░            ░  ░ ░            ░  ░ ░
 echo  ░                                ░
 echo.
-echo                BY BOBBY NAKHONCHAISRI KING FIVEM
+echo                 WELCOME TO CRITICAL BY BOBBY
 echo.             
-echo                      [1] RUN CRITICAL NO PRO
+echo                     [1] RUN CRITICAL 
 echo.
 
 set /p choice=Select Option ^>
