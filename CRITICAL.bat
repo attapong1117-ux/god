@@ -35,7 +35,7 @@
 chcp 65001 >nul
 title CRITICAL  BUILD AT 6/5/2569 21:19
 color 0D
-mode con: cols=62 lines=20
+mode con: cols=62 lines=19
 
 :menu
 cls
