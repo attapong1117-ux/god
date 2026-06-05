@@ -18,7 +18,7 @@ echo  ░          ░░   ░  ▒ ░  ░       ▒ ░░          ░   �
 echo  ░ ░         ░      ░            ░  ░ ░            ░  ░ ░
 echo  ░                                ░
 echo.
-echo                    LOG IN   TO  CRITICAL
+echo                   LOG IN   TO  CRITICAL
 echo.
 
 
