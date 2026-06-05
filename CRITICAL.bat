@@ -35,7 +35,7 @@
 chcp 65001 >nul
 title CRITICAL  BUILD AT 6/5/2569 21:19
 color 0D
-mode con: cols=62 lines=19
+mode con: cols=62 lines=17
 
 :menu
 cls
@@ -52,10 +52,9 @@ echo  ░          ░░   ░  ▒ ░  ░       ▒ ░░          ░   �
 echo  ░ ░         ░      ░            ░  ░ ░            ░  ░ ░
 echo  ░                                ░
 echo.
-echo             BY BOBBY NAKHONCHAISRI KING FIVEM
+echo              BY BOBBY NAKHONCHAISRI KING FIVEM
 echo.             
-echo.
-echo   [1] RUN CRITICAL
+echo                     [1] RUN CRITICAL 
 echo.
 
 set /p choice=Select Option ^>
