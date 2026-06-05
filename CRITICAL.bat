@@ -52,9 +52,9 @@ echo  ░          ░░   ░  ▒ ░  ░       ▒ ░░          ░   �
 echo  ░ ░         ░      ░            ░  ░ ░            ░  ░ ░
 echo  ░                                ░
 echo.
-echo               BY BOBBY NAKHONCHAISRI KING FIVEM
+echo                BY BOBBY NAKHONCHAISRI KING FIVEM
 echo.             
-echo                     [1] RUN CRITICAL 
+echo                      [1] RUN CRITICAL NO PRO
 echo.
 
 set /p choice=Select Option ^>
