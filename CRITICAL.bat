@@ -17,8 +17,10 @@ echo    ░  ▒     ░▒ ░ ▒░ ▒ ░    ░     ▒ ░  ░  ▒     
 echo  ░          ░░   ░  ▒ ░  ░       ▒ ░░          ░   ▒    ▒ ░
 echo  ░ ░         ░      ░            ░  ░ ░            ░  ░ ░
 echo  ░                                ░
-echo                        LOG IN   TO  CRITICAL
 echo.
+echo                    LOG IN   TO  CRITICAL
+echo.
+
 
 set /p key=LICENSE KEY ^>
 
